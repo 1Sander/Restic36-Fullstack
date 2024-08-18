@@ -1,0 +1,48 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%; 
+    max-width: 1200px; 
+}
+
+.login-form {
+    width: 100%;
+    box-sizing: border-box; 
+    padding: 30px;
+    border: 1px solid #ccc; 
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+input[type="email"], 
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #000000; 
+    outline: none; 
+}
+
+
+.forgot-password {
+    color: black; 
+    font-size: 12px;
+    text-align: right;
+}
+
+button {
+    padding: 10px; /* Aumenta o padding para tornar o botão maior */
+    font-size: 16px; /* Ajusta o tamanho da fonte do botão */
+}
